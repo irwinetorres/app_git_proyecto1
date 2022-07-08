@@ -13,3 +13,4 @@ git commit -m "Add commands - urls"
 
 Otros
 git log commands.txt
+git diff eafcf99e694de4a5e1f488f5f2ced361421ccfd6 199334511685521f954ba14829dcdf7cec37041e
