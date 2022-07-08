@@ -9,8 +9,13 @@ git status
 git rm --cached commands.txt (trackear / untracked)
 git rm --force (Elimina los archivos de Git y del disco duro)
 
-Repository
+Repository Local
 git commit -m "Add commands - urls"
+
+Repository Remote
+git fetch
+git merge
+git pull
 
 Otros
 git log commands.txt
