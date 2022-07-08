@@ -11,11 +11,15 @@ git rm --force (Elimina los archivos de Git y del disco duro)
 
 Repository Local
 git commit -m "Add commands - urls"
+git commit -am "Message"
 
 Repository Remote
 git fetch
 git merge
 git pull
+
+Ramas
+git branch
 
 Otros
 git log commands.txt
