@@ -8,5 +8,8 @@ git init
 git status
 git rm --cached commands.txt
 
-Repositorio
+Repository
 git commit -m "Add commands - urls"
+
+Otros
+git log commands.txt
