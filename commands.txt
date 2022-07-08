@@ -1,3 +1,12 @@
+git config --list
+git config --list --show-origin
+git config --global user.name "Irwin Estrada"
+git config --global user.email "irwinestradatorres@gmail.com"
+
+Stage
 git init
 git status
 git rm --cached commands.txt
+
+Repositorio
+git commit -m "Add commands - urls"
