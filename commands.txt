@@ -19,7 +19,9 @@ git merge
 git pull
 
 Ramas
-git branch
+git branch cabecera
+git checkout cabecera
+
 
 Otros
 git log commands.txt
