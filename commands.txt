@@ -6,7 +6,8 @@ git config --global user.email "irwinestradatorres@gmail.com"
 Staging
 git init
 git status
-git rm --cached commands.txt
+git rm --cached commands.txt (trackear / untracked)
+git rm --force (Elimina los archivos de Git y del disco duro)
 
 Repository
 git commit -m "Add commands - urls"
@@ -14,5 +15,9 @@ git commit -m "Add commands - urls"
 Otros
 git log commands.txt
 git diff eafcf99e694de4a5e1f488f5f2ced361421ccfd6 199334511685521f954ba14829dcdf7cec37041e
-git reset 2464ce2ea552e8f3524dd9ad69dce77f07310af8 (--hard --soft)
+git reset 2464ce2ea552e8f3524dd9ad69dce77f07310af8 (--hard --soft HEAD) (Este comando nos ayuda a volver en el tiempo)
+
+git checkout 2464ce2ea552e8f3524dd9ad69dce77f07310af8 commands.txt
+git checkout master commands.txt
+
 
