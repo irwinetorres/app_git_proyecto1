@@ -22,3 +22,10 @@ footer {
     margin: auto;
     background-color: lightseagreen;
 }
+
+article{
+    width: 70%;
+    margin: auto;
+    background-color: lightseagreen;
+    padding: 10px;
+}
