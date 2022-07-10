@@ -39,5 +39,13 @@ git reset 2464ce2ea552e8f3524dd9ad69dce77f07310af8 (--hard --soft HEAD) (Este co
 git checkout 2464ce2ea552e8f3524dd9ad69dce77f07310af8 commands.txt
 git checkout master commands.txt
 
- git log --all --graph --decorate --oneline
- alias arbolito="git log --all --graph --decorate --oneline"
+git log --all --graph --decorate --oneline
+alias arbolito="git log --all --graph --decorate --oneline"
+
+Tags:
+git tag -a v0.1 -m "Advanced Commands" e1602a2
+git tag
+git show-ref --tags
+git push origin --tags
+git tag -d NAME_TAG
+git push origin :refs/tags/NAME_TAG
