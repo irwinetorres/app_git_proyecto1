@@ -19,13 +19,17 @@ git merge
 git pull origin master --allow-unrelated-histories
 git remote add origin https://github.com/irwinet/app_git_proyecto1.git
 git remote -v
+git remote set-url origin git@github.com:irwinet/app_git_proyecto1.git
 git push origin master
-
 
 Ramas
 git branch cabecera
 git checkout cabecera
 
+SSH Key
+ssh-keygen -t rsa -b 4096 -C "irwinestradatorres@gmail.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
 
 Otros
 git log commands.txt
