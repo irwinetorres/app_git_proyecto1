@@ -16,9 +16,11 @@ git commit -am "Message"
 Repository Remote
 git fetch
 git merge
-git pull
+git pull origin master
 git remote add origin https://github.com/irwinet/app_git_proyecto1.git
 git remote -v
+git push origin master
+
 
 Ramas
 git branch cabecera
