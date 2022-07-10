@@ -17,6 +17,8 @@ Repository Remote
 git fetch
 git merge
 git pull
+git remote add origin https://github.com/irwinet/app_git_proyecto1.git
+git remote -v
 
 Ramas
 git branch cabecera
