@@ -4,36 +4,20 @@ body {
     background-color: lightslategrey;
 }
 
-header {
-    border: 1px solid #000;
+.content {
     width: 70%;
     margin: auto;
+    border: 1px solid #000;
     background-color: lightseagreen;
+    padding: 10px;
     color: white;
-    padding: 10px;
 }
 
-section {
-    width: 70%;
-    margin: auto;
-    border: 1px solid #000;
-    background-color: lightseagreen;
-    padding: 10px;
+section>h2 {
+    color: gold;
 }
 
-footer {
-    border: 1px solid #000;
-    width: 70%;
-    margin: auto;
-    background-color: lightseagreen;
-    color: white;
-    padding: 10px;
-}
 
-article{
-    width: 70%;
-    margin: auto;
-    border: 1px solid #000;
-    background-color: lightseagreen;
-    padding: 10px;
+article h2 {
+    color: gold;
 }
