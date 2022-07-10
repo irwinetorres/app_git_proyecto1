@@ -27,11 +27,13 @@ footer {
     margin: auto;
     background-color: lightseagreen;
     color: white;
+    padding: 10px;
 }
 
 article{
     width: 70%;
     margin: auto;
+    border: 1px solid #000;
     background-color: lightseagreen;
     padding: 10px;
 }
