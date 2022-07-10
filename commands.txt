@@ -25,6 +25,9 @@ git push origin master
 Ramas
 git branch cabecera
 git checkout cabecera
+git show-branch
+git show-branch --all
+gitk
 
 SSH Key
 ssh-keygen -t rsa -b 4096 -C "irwinestradatorres@gmail.com"
